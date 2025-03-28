@@ -1,0 +1,5 @@
+Java is a widely used object-oriented programming language and software platform that runs on billions of devices, including notebook computers, mobile devices, gaming consoles, medical devices and many others. The rules and syntax of Java are based on the C and C++ languages.
+
+One major advantage of developing software with Java is its portability. Once you wrote code for a Java program on a notebook computer, it can be easily moved to a mobile device. When the language was invented in 1991 by James Gosling of Sun Microsystems (later acquired by Oracle), the primary goal was to be able to "write once, run anywhere."
+
+It's also important to understand that Java is much different from JavaScript. JavaScript does not need to be compiled, while Java code needs to be. Also, Javascript only runs on web browsers, while Java can be run anywhere.
