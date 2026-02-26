@@ -3,24 +3,24 @@ class Solution
 public:
     int numSteps(string s)
     {
-        int steps = 0;
-        int carry = 0;
+        int stps = 0;
+        int cry = 0;
 
         for (int i = s.size() - 1; i > 0; i--)
         {
-            int bit = (s[i] - '0') + carry;
+            int bit = (s[i] - '0') + cry;
 
             if (bit % 2 == 0)
             {
-                steps += 1;
+                stps += 1;
             }
             else
             {
-                steps += 2;
-                carry = 1;
+                stps += 2;
+                cry = 1;
             }
         }
 
-        return steps + carry;
+        return stps + cry;
     }
 };
